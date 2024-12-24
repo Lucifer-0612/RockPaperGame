@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Honk&family=Iceland&family=Kalnia:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle at center ,#ffe5d9 , #ffcad4, #b9fbc0)
+}
+
+h1{
+    color: hsl(284, 100%, 50%) ;
+    text-shadow: 2px  2px black;
+    font-family: Iceland;
+    font-size: 6rem;
+}
+
+.choices
+{
+    margin-bottom: 30px;
+}
+
+.choices button
+{
+    font-size: 9rem;
+    margin: 0 40px;
+    filter: drop-shadow(10px 7px 10px hsl(39, 93%, 18%));
+    border-radius: 20px;
+    background-color: hsla(302, 61%, 68%, 0.58);
+    text-shadow: 2px -2px 2px black;
+    cursor: pointer;
+    transition: background-color 0.5s ease ;
+    
+}
+
+.choices button:hover
+{
+    background-color: hsla(302, 61%, 38%, 0.58);
+}
+
+#playerDisplay, #computerDisplay
+{
+    font-family: Jim Nightshade;
+    font-size: 5rem;
+    font-weight: bold;
+    color: hsla(231, 6%, 75%, 0.991);
+    text-shadow: 5px 0px 2px red, -5px 0px 2px rgb(0, 140, 255);
+}
+
+#resultDisplay
+{
+    font-size: 6rem;
+    border: 2px dashed;
+    padding: 20px 50px;
+    background-color: hsl(272, 26%, 65%);
+    color: rgb(231, 206, 11);
+    text-shadow: 2px 2px 20px grey;
+    
+}
+
+.redText
+{
+    color: red;
+}
+
+.greenText
+{
+    color: greenyellow;
+}
